@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'pages/home_page.dart';
+import 'pages/page_view/page_view_example.dart';
 
 void main() {
   runApp(
     const MaterialApp(
-      home: HomePage(),
+      home: PageViewExample(),
     ),
   );
 }

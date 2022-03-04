@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'pages/object_list/object_list_example.dart';
+import 'pages/global_keys/pages/global_page.dart';
 
 void main() {
   runApp(
     const MaterialApp(
-      home: ObjectListExample(),
+      home: GlobalPage(),
     ),
   );
 }
